@@ -30,7 +30,7 @@ function findthreeentries(data::Array{Int,2})::Tuple{Int,Int,Int}
 end
 
 function main()
-    file = "./assets/data/01.txt"
+    file = "../assets/data/01.txt"
     data = loaddata(file)
 
     # part one

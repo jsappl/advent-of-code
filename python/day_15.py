@@ -24,7 +24,7 @@ def memory_game(numbers: list, abort: int) -> int:
 
 
 def main():
-    file_ = "./assets/data/15.txt"
+    file_ = "../assets/data/15.txt"
     start = read_numbers_from(file_)
 
     # part one

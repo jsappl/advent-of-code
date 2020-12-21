@@ -55,7 +55,7 @@ def move_ferry_with_new(instructions: list) -> np.ndarray:
 
 
 def main():
-    file_ = "./assets/data/12.txt"
+    file_ = "../assets/data/12.txt"
     instructions = read_data_from(file_)
 
     # part one

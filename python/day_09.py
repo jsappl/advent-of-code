@@ -35,7 +35,7 @@ def find_contiguous_in(output: list, error_idx: int) -> list:
 
 
 def main():
-    file_ = "./assets/data/09.txt"
+    file_ = "../assets/data/09.txt"
     output = read_data_from(file_)
 
     # part one

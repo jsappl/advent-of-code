@@ -44,7 +44,7 @@ def count_ways_in(joltages: list) -> int:
 
 
 def main():
-    file_ = "./assets/data/10.txt"
+    file_ = "../assets/data/10.txt"
     joltages = read_data_from(file_)
 
     # part one

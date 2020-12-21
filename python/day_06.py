@@ -27,7 +27,7 @@ def count_all_yes_in(answers: list) -> int:
 
 def main():
     # CAVE: Add bottom empty line otherwise read_from won't work.
-    file_ = "./assets/data/06.txt"
+    file_ = "../assets/data/06.txt"
     answers_per_group = read_from(file_)
 
     # part one

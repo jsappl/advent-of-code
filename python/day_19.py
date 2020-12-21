@@ -26,7 +26,7 @@ def regex_from(rules: list, idx: int) -> str:
 
 
 def main():
-    rules, messages = read_data_from("./assets/data/19.txt")
+    rules, messages = read_data_from("../assets/data/19.txt")
 
     # part one
     possible = regex_from(rules, 0)

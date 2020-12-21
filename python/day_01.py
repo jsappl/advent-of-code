@@ -28,7 +28,7 @@ def find_three_entries(data: "np.array") -> Tuple["int", "int", "int"]:
 
 
 def main():
-    file_ = "./assets/data/01.txt"
+    file_ = "../assets/data/01.txt"
     data = read(file_)
 
     # part one

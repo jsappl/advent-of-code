@@ -45,7 +45,7 @@ def find_my_seat_from(seats: list) -> int:
 
 
 def main():
-    file_ = "./assets/data/05.txt"
+    file_ = "../assets/data/05.txt"
     passes = read_data_from(file_)
 
     # part one

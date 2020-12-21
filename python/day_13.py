@@ -26,7 +26,7 @@ def chinese_remainder(multiples: list, remainders: list) -> int:
 
 
 def main():
-    file_ = "./assets/data/13.txt"
+    file_ = "../assets/data/13.txt"
     timestamp, bus_ids = read_data_from(file_)
 
     # part one

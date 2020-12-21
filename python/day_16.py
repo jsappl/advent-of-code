@@ -64,7 +64,7 @@ def determine_fields_from(valid: list, rules) -> list:
 
 
 def main():
-    rules, yours, nearby = read_data_from("./assets/data/16.txt")
+    rules, yours, nearby = read_data_from("../assets/data/16.txt")
 
     # part one
     error_rate, valid = find_completely_invalid(nearby, rules)

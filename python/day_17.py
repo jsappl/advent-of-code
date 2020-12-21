@@ -47,13 +47,13 @@ def execute_4d_cycle(actives: np.ndarray) -> np.ndarray:
 
 def main():
     # part one
-    actives = read_data_from("./assets/data/17.txt")
+    actives = read_data_from("../assets/data/17.txt")
     for _ in range(6):
         actives = execute_cycle(actives)
     print(f"Total of {np.sum(actives)} cubes are active.")
 
     # part one
-    actives = read_data_from("./assets/data/17.txt")
+    actives = read_data_from("../assets/data/17.txt")
     actives = np.pad(np.expand_dims(actives, -1), ((0, 0), (0, 0), (0, 0), (7, 7)), "constant", constant_values=False)
     for _ in range(6):
         actives = execute_4d_cycle(actives)

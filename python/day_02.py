@@ -39,7 +39,7 @@ def check_valid_new(policy_and_pw: "list") -> bool:
 
 
 def main():
-    file_ = "./assets/data/02.txt"
+    file_ = "../assets/data/02.txt"
     data = data_from(file_)
 
     # part one

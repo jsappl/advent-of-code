@@ -66,7 +66,7 @@ def find_connection(save: list, foods: dict) -> list:
 
 
 def main():
-    foods = read_data_from("./assets/data/21.txt")
+    foods = read_data_from("../assets/data/21.txt")
 
     # part one
     save = save_ingredients_from(foods)

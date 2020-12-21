@@ -50,7 +50,7 @@ def count_inner_bags_of(outer: str, rules: dict) -> int:
 
 
 def main():
-    file_ = "./assets/data/07.txt"
+    file_ = "../assets/data/07.txt"
     rules = read_data_from(file_)
 
     # part one

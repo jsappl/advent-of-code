@@ -54,7 +54,7 @@ def valid_fields_of(passport: dict) -> bool:
 
 def main():
     # CAVE: Add bottom empty line otherwise read_from won't work.
-    file_ = "./assets/data/04.txt"
+    file_ = "../assets/data/04.txt"
     passports = read_from(file_)
 
     # part one

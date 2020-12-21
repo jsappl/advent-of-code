@@ -41,7 +41,7 @@ def fix(code: list) -> int:
 
 
 def main():
-    file_ = "./assets/data/08.txt"
+    file_ = "../assets/data/08.txt"
     code = read_data_from(file_)
 
     # part one

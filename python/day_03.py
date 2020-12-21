@@ -37,7 +37,7 @@ def skiing_on(slope: "np.array", right: int, down: int) -> int:
 
 
 def main():
-    file_ = "./assets/data/03.txt"
+    file_ = "../assets/data/03.txt"
     slope = read_from(file_)
 
     # part one

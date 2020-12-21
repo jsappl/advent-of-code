@@ -52,7 +52,7 @@ def execute_initialization(lines: list, part: str) -> list:
 
 
 def main():
-    file_ = "./assets/data/14.txt"
+    file_ = "../assets/data/14.txt"
     lines = read_data_from(file_)
 
     # part one

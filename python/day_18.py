@@ -35,7 +35,7 @@ def evaluate(homework: list, rule: Callable) -> list:
 
 
 def main():
-    homework = read_data_from("./assets/data/18.txt")
+    homework = read_data_from("../assets/data/18.txt")
 
     # part one
     results = evaluate(homework, new_rules)

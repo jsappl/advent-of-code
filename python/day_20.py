@@ -103,7 +103,7 @@ def find(monster: np.ndarray, image: np.ndarray) -> int:
 
 
 def main():
-    tiles = read_data_from("./assets/data/20.txt")
+    tiles = read_data_from("../assets/data/20.txt")
 
     # part one
     order = reconstruct(tiles)
